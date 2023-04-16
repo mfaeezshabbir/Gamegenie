@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   try {
     const response = await axios.get('https://api.rawg.io/api/games', {
       params: {
-        key: 'YOUR_API_KEY', // Replace with your actual API key
+        key: '3a86f83332614b9c8ffc5f2841996e94', // Replace with your actual API key
         page_size: 10, // Number of games to fetch per page
         ordering: '-rating', // Order games by rating in descending order
       },
