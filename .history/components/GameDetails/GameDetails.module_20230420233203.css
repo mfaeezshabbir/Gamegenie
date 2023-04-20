@@ -1,0 +1,98 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .game-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .imageContainer {
+    width: 300px;
+    height: 400px;
+    margin-right: 2rem;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .game-details-info {
+    flex: 1;
+  }
+  
+  .game-details-info h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .game-details-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .game-details-info p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .game-details-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .game-details-info ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .game-details-info ul li span {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .game-details-info .rating {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f1c40f;
+    margin-right: 0.5rem;
+  }
+  
+  .game-details-info .platforms {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .game-details-info .platforms span {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .game-details-info .genres {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .game-details-info .genres span {
+    display: inline-block;
+    background-color: #9b59b6;
+    color: #fff;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+  
